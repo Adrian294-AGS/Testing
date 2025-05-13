@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.main {
+    width: 100%;
+    background: url(image/a\ modern\ game-themed\ background\ image.png);
+    background-position: center;
+    background-size: cover;
+    height: 130vh;
+    opacity: 4;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.navbar {
+    width: 100%;
+    margin: auto;
+    height: 75px;
+    background-color: aqua;
+}
+
+.icon {
+    color: blue;
+    margin-left: 25px;
+    background: url(image/favicon\ \(1\).ico);
+    width: 4%;
+    height: 8vh;
+    background-size: contain;
+    border-radius: 30px;
+    margin-top: auto;
+}
+
+.navbar h1 {
+    margin-right: 88%;
+    margin-top: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #040749;
+}
+
+.form {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: #040749;
+}
+
+.menu {
+    margin-left: 15%;
+    margin-top: -3%;
+}
+
+ul {
+    float: right;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+    padding: auto;
+    margin-right: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu button {
+    background: none;
+    border: 0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #040749;
+}
+
+.menu button:hover {
+    color: white;
+}
+
+.start {
+    background-color: aqua;
+    width: 23%;
+    height: 9%;
+    padding: 1% 2%;
+    border-radius: 15px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(37, 33, 33);
+    box-shadow: 5px 10px #f4f4f4;
+}
+
+.start:hover {
+    background-color: white;
+    color: #040749;
+}
+
+.btn_start {
+    width: 9%;
+    height: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #040749;
+    padding: 1%;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+.btn_start button {
+    background: none;
+    border: none;
+    color: white;
+}
+
+.body {
+    margin-top: 15%;
+}
+
+#profile {
+   height: 94vh;
+}
